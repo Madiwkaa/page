@@ -1,0 +1,198 @@
+
+body{
+	font-family:Cascadia Code;
+	background-color: orange;
+	color: white;
+	background: #CCFF99 center top ;
+	height: 100vh;
+	background-size: 600px ;
+
+
+}
+
+}
+p,h1,h3,span{
+	cursor: pointer;
+	line-height: 23px;
+	padding-bottom: 20px;
+	text-indent: 1.5em;
+}
+a{
+	font-style: italic;
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color:silver;
+	font-style: normal;
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+.verh{
+	display:flex;
+	text-align:justify;
+	background-color: #D5C37B;
+	border-radius: 100px;
+	width: 90%;
+	box-shadow: 0 0 3px silver;
+	margin: 40px;
+	padding: 10px;
+}
+.verh-0{
+	align-items: flex-start;
+	justify-self: space-around;
+}
+.kvadrat {
+    border-radius: 100px; 
+    box-shadow: 0 0 7px #000000; 
+}
+.mezh{
+	text-align: center;
+}
+.mezh img{
+	border-radius: 120px;
+}
+div h1{
+	font-size: 3.5em;
+	font-family: 'Poor Story', cursive;
+	color: #ff0000;
+	margin: 15px;
+}
+.borjomi{
+	background-color:#0F3D4E;
+	border-radius: 65px;
+	width: 85%;
+	height: 1620px;
+	margin-left: 70px;
+	box-shadow: 0 0 1px silver;
+	padding: 10px 50px 50px 50px;
+}
+.inform1 h3{
+	text-align: center;
+	color: yellow;
+	text-align:justify;
+	padding-top: 40px;
+}
+.inform2{
+	text-align:justify;
+	display: inline-flex;
+	justify-self: space-between;
+}
+.inform2 p{
+	padding-right: 40px;
+}
+.inform3{
+	text-align:justify;
+}
+.trai{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.trai video{
+	border-radius: 25px;
+	box-shadow: 0 0 2px silver;
+
+}
+.niz-vid{text-align:justify;
+}
+.niz-vid::after{
+	margin: 25px;
+	content: 'Ближе к финалу сериала Лайт смог избавиться от L, вынудив другого бога смерти убить его. После этого Ягами берёт себе псевдоним L и принимает на себя командование группой, охотящейся за Кирой, т.е. по сути занимается ловлей самого себя. Тем временем у L появляются два не менее гениальных наследника, которые, действуя параллельно, добиваются разоблачения Ягами. Сериал заканчивается смертью Лайта в перестрелке. ';
+}
+img{
+    width:210;
+    height:220;
+filter:saturate(200%);
+filter:drop-shadow(16px 16px 20px blue);
+}
+h6{
+ width:210;
+    height:220;
+filter: grayscale(80%);
+align:center;
+}
+
+
+
+
+.aaa{
+  
+  border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 10px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-left: -950px; /* Отступ справа */
+    margin-bottom: -450px; /* Отступ снизу */
+}
+
+.aaa:hover{
+  -webkit-filter:grayscale(100%);
+}
+
+.bbb{
+  
+  border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 10px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-left: 880px; /* Отступ справа */
+    margin-bottom:-440px;
+}
+
+.bbb:hover{
+  -webkit-filter:blur(5px);
+}
+
+.ddd{
+  
+  border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 10px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 40px; /* Отступ справа */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+
+.ddd:hover{
+  -webkit-filter:hue-rotate(270deg);
+}
+
+.sss{
+  
+  border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 10px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 950px; /* Отступ справа */
+    margin-bottom: -440px; /* Отступ снизу */
+}
+
+.sss:hover{
+  -webkit-filter:brightness(0.5);
+}
+
+
+.rrr{
+  
+  border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 10px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-left: 40px; /* Отступ справа */
+    margin-bottom:-420px;
+}
+
+.rrr:hover{
+  -webkit-filter:invert(1);
+}
+
+
+
+.qqq{
+  
+  border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 10px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-left: 950px; /* Отступ справа */
+    margin-bottom: -10px; /* Отступ снизу */
+}
+
+.qqq:hover{
+  -webkit-filter:contrast(1.5);
+}
